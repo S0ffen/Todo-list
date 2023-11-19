@@ -8,4 +8,23 @@ body{
     background-color: #022339;
     color: #fff;
 }
-
+.mainContainer{
+    background-color: aqua;
+    min-height: 100vh;
+}
+.changelater{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+.list{
+    background-color: green;
+    min-height: 35vh;
+    display: flex;
+    align-content: space-around;
+}
+.listOfTodos{
+    list-style: none;
+}
