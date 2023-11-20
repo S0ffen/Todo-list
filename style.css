@@ -24,5 +24,20 @@ body{
     align-content: space-around;
 }
 .listOfTodos{
+    width: 100%;
     list-style: none;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.listOfTodos > li{
+    width: 100%;
+    padding: 15px;
+    background: #178BE3;
+    cursor: pointer;
+  
+}
+.listOfTodos li:nth-child(odd) {
+    background: green;
 }
